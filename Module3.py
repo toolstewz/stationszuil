@@ -4,6 +4,7 @@ import json
 import requests
 import psycopg2
 
+#connect database:
 conn = psycopg2.connect(
     host="localhost", database="Stationszuil", user="postgres", password="Gerard13"
 )
